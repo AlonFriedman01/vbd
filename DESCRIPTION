@@ -1,0 +1,10 @@
+Package: vbd
+Title: Vector Borne Diseases Dynamics
+Version: 0.0.0.9000
+Authors@R: person("Fadoua", "El Moustaid", email = "fadoua@mail.usf.edu", role = c("aut", "cre"))
+Description: Solve a Simple Vector Borne Disease Model with Delay.
+Depends:
+    R (>= 3.2.2)
+License: What license is it under?
+LazyData: true
+RoxygenNote: 5.0.1.9000
