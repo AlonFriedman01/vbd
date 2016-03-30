@@ -3,7 +3,7 @@
 \name{SIRSvIv}
 \alias{SIRSvIv}
 \title{This function allows you to solve a simple vector borne diseases mathematical model
-with delay (SIRSvIv). To try the solver please run the following example.}
+with delay (SIRSvIv). To try the solver please look at the example stated below.}
 \usage{
 SIRSvIv(pars = NULL, init = NULL, time = NULL, ...)
 }
@@ -23,7 +23,12 @@ SIRSvIv(pars = NULL, init = NULL, time = NULL, ...)
 \item{mu}{= Vector death rate}
 }
 \description{
-Parameters and initial conditions.
+Model
+dS  = -beta Iv  S/N;
+dI  = beta S(t-tau) Iv(t-tau) N - r I;
+dR  = r I;
+dSv = lambda - alpha I Sv/N - mu Sv;
+dIv = alpha I Sv/N - mu Iv;
 }
 \examples{
 parameters <- c(mu = 1 / (70 * 365), beta = 520 / 365,
