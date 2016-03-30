@@ -4,12 +4,12 @@
 #' Parameters and initial conditions.
 #' @param
 #'  tau =  Time delay
-#'  N = Total host population
-#'  beta = Host infection rate
-#'  r =  Host recovery rate
-#'  lambda = Number of new suceptible vectors per time
-#'  alpha = Vector infection rate
-#'  mu = Vector death rate
+#' @param N = Total host population
+#' @param beta = Host infection rate
+#' @param r =  Host recovery rate
+#' @param lambda = Number of new suceptible vectors per time
+#' @param alpha = Vector infection rate
+#' @param mu = Vector death rate
 #' @examples
 #' parameters <- c(mu = 1 / (70 * 365), beta = 520 / 365,
 #'                 lambda = 1 / 14, alpha = 1 / 7, tau =1, N = 500, r = 1/6 )

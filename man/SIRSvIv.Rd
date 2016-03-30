@@ -8,13 +8,19 @@ with delay (SIRSvIv). To try the solver please run the following example.}
 SIRSvIv(pars = NULL, init = NULL, time = NULL, ...)
 }
 \arguments{
-\item{tau}{=  Time delay
-N = Total host population
-beta = Host infection rate
-r =  Host recovery rate
-lambda = Number of new suceptible vectors per time
-alpha = Vector infection rate
-mu = Vector death rate}
+\item{tau}{=  Time delay}
+
+\item{N}{= Total host population}
+
+\item{beta}{= Host infection rate}
+
+\item{r}{=  Host recovery rate}
+
+\item{lambda}{= Number of new suceptible vectors per time}
+
+\item{alpha}{= Vector infection rate}
+
+\item{mu}{= Vector death rate}
 }
 \description{
 Parameters and initial conditions.
