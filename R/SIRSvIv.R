@@ -17,6 +17,7 @@
 #' # Solve and plot.
 #' S<- SIRSvIv(pars = parameters, init = initials, time = seq(from = 0, to = 10, by =.5))
 #' plot(S$results)
+#' @export
 
 SIRSvIv <- function(pars = NULL, init = NULL, time = NULL, ...) {
   if (is.null(pars)) {
